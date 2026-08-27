@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Reuben Pinkhasov - Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="code.js" defer></script>
+</head>
+
+<body>
+
+    <header class="profile-header">
+        <button id="theme-toggle" class="theme-button">
+            🌙 Dark Mode
+        </button>
+    </header>
+
+    <main id="main-content">
+
+        <article class="profile-card">
+
+            <!-- Profile information -->
+            <section class="profile-info">
+
+                <img id="profile-photo" class="profile-image" src="https://via.placeholder.com/300" alt="Profile photo">
+
+                <h1 id="profile-name">Reuben Pinkhasov</h1>
+
+                <p class="profile-title">
+                    DevOps / SRE / Cloud &amp; Performance Engineer
+                </p>
+
+                <div class="bio">
+                    <p>
+                        I am a Performance and DevOps Engineer with extensive
+                        experience in performance testing, automation, cloud
+                        technologies, and distributed systems.
+                    </p>
+
+                    <p id="extra-bio" class="hidden">
+                        I work with AWS, Kubernetes, Docker, Terraform,
+                        CI/CD pipelines, monitoring and observability tools.
+                        I enjoy troubleshooting complex systems and building
+                        scalable and automated solutions.
+                    </p>
+
+                    <button id="bio-toggle" class="secondary-button">
+                        Show More
+                    </button>
+                </div>
+
+            </section>
+
+
+            <!-- Skills -->
+            <section class="skills-section">
+
+                <h2>Skills</h2>
+
+                <input type="text" id="skill-filter" class="skill-input" placeholder="Search skills...">
+
+                <ul id="skills-list" class="skills-list">
+                    <li class="skill-item">AWS</li>
+                    <li class="skill-item">Kubernetes</li>
+                    <li class="skill-item">Docker</li>
+                    <li class="skill-item">Terraform</li>
+                    <li class="skill-item">GitHub Actions</li>
+                    <li class="skill-item">JMeter</li>
+                    <li class="skill-item">Linux</li>
+                    <li class="skill-item">Python</li>
+                    <li class="skill-item">Bash</li>
+                </ul>
+
+
+                <!-- Add new skill -->
+                <form id="skill-form" class="skill-form">
+
+                    <input type="text" id="new-skill" class="skill-input" placeholder="Add a new skill">
+
+                    <button type="submit" class="primary-button">
+                        Add Skill
+                    </button>
+
+                </form>
+
+            </section>
+
+
+            <!-- Contact -->
+            <section class="contact-section">
+
+                <button id="contact-button" class="primary-button">
+                    Contact Me
+                </button>
+
+                <p id="contact-message" class="hidden">
+                    Thanks for your interest!
+                </p>
+
+            </section>
+
+        </article>
+
+    </main>
+
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Reuben Pinkhasov</p>
+    </footer>
+
+
+
+</body>
+
+</html>
